@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".agregarUsuario">
+
+    <EditText
+        android:id="@+id/inContrasena3"
+        android:layout_width="264dp"
+        android:layout_height="43dp"
+        android:layout_marginTop="11dp"
+        android:layout_marginEnd="60dp"
+        android:ems="10"
+        android:inputType="text"
+        android:text="Telefono"
+        android:textColor="#5B5B5B"
+        android:textColorHint="#5B5B5B"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/inCorreo4" />
+
+    <ImageView
+        android:id="@+id/imgTelefono"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="53dp"
+        android:layout_marginBottom="26dp"
+        android:scaleX="1.2"
+        android:scaleY="1.2"
+        app:layout_constraintBottom_toTopOf="@+id/imgPsw3"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/telephone" />
+
+    <EditText
+        android:id="@+id/inDireccion"
+        android:layout_width="264dp"
+        android:layout_height="43dp"
+        android:layout_marginEnd="61dp"
+        android:layout_marginBottom="11dp"
+        android:ems="10"
+        android:inputType="text"
+        android:text="Direccion"
+        android:textColor="#5B5B5B"
+        android:textColorHint="#5B5B5B"
+        app:layout_constraintBottom_toTopOf="@+id/btnInicioSesion3"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <ImageView
+        android:id="@+id/imgPsw3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="52dp"
+        android:layout_marginBottom="30dp"
+        android:scaleX="1.2"
+        android:scaleY="1.2"
+        app:layout_constraintBottom_toTopOf="@+id/btnInicioSesion3"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/maps_and_flags" />
+
+    <EditText
+        android:id="@+id/inCorreo4"
+        android:layout_width="264dp"
+        android:layout_height="43dp"
+        android:layout_marginTop="14dp"
+        android:layout_marginEnd="60dp"
+        android:ems="10"
+        android:inputType="textWebEmailAddress"
+        android:text="Nombre"
+        android:textColor="#5B5B5B"
+        android:textColorHint="#5B5B5B"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/inContrasena2" />
+
+    <ImageView
+        android:id="@+id/imgArroba4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="53dp"
+        android:layout_marginTop="34dp"
+        android:scaleX="1.2"
+        android:scaleY="1.2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imgPsw2"
+        app:srcCompat="@drawable/user" />
+
+    <Button
+        android:id="@+id/btnInicioSesion3"
+        android:layout_width="298dp"
+        android:layout_height="59dp"
+        android:layout_marginStart="52dp"
+        android:layout_marginEnd="61dp"
+        android:layout_marginBottom="44dp"
+        android:background="@drawable/border_radius"
+        android:onClick="sendMessage"
+        android:text="Aceptar"
+        android:textAllCaps="false"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <EditText
+        android:id="@+id/inContrasena2"
+        android:layout_width="264dp"
+        android:layout_height="43dp"
+        android:layout_marginTop="11dp"
+        android:layout_marginEnd="60dp"
+        android:ems="10"
+        android:inputType="text"
+        android:text="Contraseña"
+        android:textColor="#5B5B5B"
+        android:textColorHint="#5B5B5B"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/inCorreo3" />
+
+    <EditText
+        android:id="@+id/inCorreo3"
+        android:layout_width="264dp"
+        android:layout_height="43dp"
+        android:layout_marginTop="17dp"
+        android:layout_marginEnd="60dp"
+        android:ems="10"
+        android:inputType="textWebEmailAddress"
+        android:text="Correo electronico"
+        android:textColor="#5B5B5B"
+        android:textColorHint="#5B5B5B"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/lblLain6" />
+
+    <ImageView
+        android:id="@+id/imgArroba3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="53dp"
+        android:layout_marginTop="17dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/lblLain6"
+        app:srcCompat="@drawable/arroba" />
+
+    <ImageView
+        android:id="@+id/imgPsw2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="53dp"
+        android:layout_marginTop="30dp"
+        android:scaleX="1.2"
+        android:scaleY="1.2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imgArroba3"
+        app:srcCompat="@drawable/lock" />
+
+    <TextView
+        android:id="@+id/lblLain6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="38dp"
+        android:layout_marginEnd="37dp"
+        android:clickable="false"
+        android:text="Registra a un usuario"
+        android:textColor="#272727"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView2" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="311dp"
+        android:layout_height="218dp"
+        android:layout_marginStart="53dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="47dp"
+        android:layout_marginBottom="38dp"
+        app:layout_constraintBottom_toTopOf="@+id/lblLain6"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/sign_up" />
+</android.support.constraint.ConstraintLayout>
